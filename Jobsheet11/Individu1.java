@@ -6,9 +6,12 @@ public class Individu1 {
 
         System.out.print("Masukkan nilai N: ");
         int N = sc.nextInt();
-        for (int i = 0; i <= N; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(j);
+        for (int i = 1; i <= N; i++) {
+            for (int j = N - i; j > 0; j--) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++){
+            System.out.print(k);
             }
             System.out.println();
         }
