@@ -24,7 +24,7 @@ public class NilaiMahasiswa {
     sc.close();
   }
 
-  //INPUT NILAI
+  //INPUT NILAI MAHASISWA
     public static void inputNilai(int[][] nilaiMhs) {
         Scanner sc = new Scanner(System.in);
         
